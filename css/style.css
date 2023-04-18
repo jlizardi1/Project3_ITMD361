@@ -1,0 +1,240 @@
+/* nav bar*/
+#main-navbar {
+  background-color: #f0f8ff;
+  overflow: hidden;
+ 
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #fff;
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+*{ box-sizing: border-box;
+}
+/* headings */
+#Heading{
+  transition: transform 500ms ease;
+}
+#Heading:hover{
+  transform: scale(1.8);
+}
+
+/* resume and page 3 */
+
+.pagestandard { 
+  background-color: #800000;
+  color: black;
+  margin: auto;
+}
+#resume-info{
+  background-color: #FFFAF0;
+  text-align: center;
+  height: 150px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 30px;
+  padding: 20px;
+}
+#skills{
+  background-color: #FFFAF0;
+  text-align:left ;
+  height: 250px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid black;
+}
+/* row layout*/
+#row1-left{
+  background-color: #FFFAF0;
+  float:left;
+  text-align: left;
+  height: auto;
+  width: 37%;
+  margin-top: 30px;
+  margin-left:125px;
+  padding: 20px;
+  border: 2px solid black;
+  position: relative;
+}
+#row1-right{
+  background-color: #FFFAF0;
+  text-align: left;
+  float: right;
+  height: auto;
+  width: 37%;
+  margin-top: 30px;
+  margin-right:125px;
+  padding: 20px;
+  border: 2px solid black;
+  position: relative;
+}
+#row2-left{
+  float:left;
+  background-color: #FFFAF0;
+  text-align: left;
+  height: auto;
+  width: 37%;
+  position: relative;
+  margin-left: 125px;
+  margin-top: 100px;
+  padding: 20px;
+  border: 2px solid black;
+}
+#row2-right{
+  background-color: #FFFAF0;
+  text-align: left;
+  float: right;
+  height: auto;
+  width: 37%;
+  position: relative;
+  margin-right: 125px;
+  margin-top: 100px;
+  padding: 20px;
+  border: 2px solid black;
+}
+/* page 3 */
+#movies{
+  background-color: #B0C4DE;
+  text-align: center;
+  height: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 30px;
+  padding: 20px;
+}
+.img{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 300px;
+  height: 280px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  border-radius: 35%;
+ 
+}
+.img3{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 300px;
+  height: 300px;
+  
+}
+.img2{
+  margin-left: 2vw;
+  margin-right: 2vw;
+
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.textwarp{
+  float: right;
+  margin: 10px;
+}
+h1{
+  font-family: 'Shantell Sans', cursive;
+}
+/* home page */
+.box{
+  width: 350px;
+  height: 320px;
+  padding:5px;
+  margin-right: 5px;
+  float:left;
+}
+#cat1{
+  background-color: azure;
+}
+#cat2{
+  background-color:#E9967A;
+}
+#cat3{
+  background-color: rgb(248, 255, 240);
+}
+#cat4{
+  background-color: rgb(23, 239, 239);
+}
+#cat5{
+  background-color: rgb(145, 11, 241);
+}
+#cat6{
+  background-color: rgb(190, 153, 19);
+}
+#cat7{
+  background-color: rgb(177, 157, 97);
+}
+#cat8{
+  background-color: rgb(43, 6, 231);
+}
+#cat9{
+  background-color: rgb(94, 112, 62);
+}
+#section1{
+  margin-left: 150px;
+  text-align: left;
+  float: left;
+  width: 400px;
+  position: relative;
+}
+#section2{
+  text-align: left;
+  float: left;
+  width: 400px;
+  position: relative;
+}
+#section3{
+  text-align: left;
+  float: left;
+  width: 400px;
+  position: relative;
+}
+/* major page*/
+#video{
+  margin-top: 1000px;
+  display: flex;
+  justify-content: center;
+}
+#video > iframe{
+  max-width: 1260px;
+  width: 100%;
+}
+
+
+ 
+
+
+
+

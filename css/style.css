@@ -243,9 +243,10 @@ h1{
 }
 
 .prev, .next {
-  position: relative;
+  position: absolute;
   top: 50%;
   font-size: 30px;
+  background: transparent;
   border: none;
   cursor: pointer;
 }

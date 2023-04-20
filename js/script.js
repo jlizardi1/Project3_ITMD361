@@ -12,24 +12,23 @@ async function initMap() {
 
 initMap();
 */
-var currentIndex = 1;
-displaySlides(currentIndex);
+var slideIndex = 0;
+showSlide(slideIndex);
 
-var slide_index = 1;
-slidesDisplay(slide_index);
-function nextSlide(n) {
-slidesDisplay(slide_index += n);
+function nextSlide() {
+  showSlide(slideIndex += 1);
 }
-function currentSlide(n) {
-slidesDisplay(slide_index = n);
+
+function prevSlide() {
+  showSlide(slideIndex -= 1);
 }
-function slidesDisplay(n) {
-var i;
-var slides = document.getElementsByClassName("showSlider");
-if (n > slides.length) { slide_index = 1 }
-if (n < 1) { slide_index = slides.length }
-for (i = 0; i < slides.length; i++) {
-slides[i].style.display = "none";
-}
-slides[slide_index - 1].style.display = "block";
+
+function showSlide(n) {
+  var slides = document.getElementsByClassName("slide");
+  if (n >= slides.length) {slideIndex = 0}
+  if (n < 0) {slideIndex = slides.length - 1}
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex].style.display = "block";
 }

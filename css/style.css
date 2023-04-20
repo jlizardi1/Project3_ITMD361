@@ -238,23 +238,17 @@ h1{
 
 }
 
-.googlemaps-page {
+.maps-page {
   background-color: #F0F8FF;
 }
 
-.googlemaps-page h1 {
+.maps-page h1,html,
+body{
   text-align: center;
   font-size: 48px;
-  color: #4682B4;
-}
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+
 }
 
- 
 
 
 

@@ -248,7 +248,33 @@ h1{
   font-size: 48px;
 
 }
+.slider {
+  position: relative;
+}
 
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
 
 
 

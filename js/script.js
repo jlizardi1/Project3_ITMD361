@@ -1,13 +1,12 @@
-let map;
+function myMap() {
+  var mapProp = {
+    center: new google.maps.LatLng(41.87552, -87.630717),
+    zoom: 10,
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+  myPointer(map);
 
-async function initMap() {
-  //@ts-ignore
-  const { Map } = await google.maps.importLibrary("maps");
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
+  google.maps.event.addListener(map, "click", function(event){
+    movePtr(map, event.latLng);
   });
 }
-
-initMap();

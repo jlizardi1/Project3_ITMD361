@@ -242,12 +242,16 @@ h1{
 }
 
 .googlemaps-page h1 {
-  font-family: fantasy;
   text-align: center;
   font-size: 48px;
   color: #4682B4;
 }
-
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
  
 

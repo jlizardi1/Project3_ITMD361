@@ -202,25 +202,8 @@ h1{
 #cat9{
   background-color: rgb(94, 112, 62);
 }
-#section1{
-  margin-left: 150px;
-  text-align: left;
-  float: left;
-  width: 400px;
-  position: relative;
-}
-#section2{
-  text-align: left;
-  float: left;
-  width: 400px;
-  position: relative;
-}
-#section3{
-  text-align: left;
-  float: left;
-  width: 400px;
-  position: relative;
-}
+
+
 /* major page*/
 #video{
   margin-top: 1000px;

@@ -235,6 +235,7 @@ h1{
 #map {
   height: 400px;
   width: 60%;
+  text-align: center;
 }
 
 .googlemaps-page {

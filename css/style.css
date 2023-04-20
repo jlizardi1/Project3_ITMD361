@@ -233,7 +233,7 @@ h1{
 }
 
 #map {
-  margin: 0 auto:
+  margin: 0 auto;
   height: 400px;
   width: 80%;
 
@@ -243,8 +243,7 @@ h1{
   background-color: #F0F8FF;
 }
 
-.maps-page h1,html,
-body{
+.maps-page h1{
   text-align: center;
   font-size: 48px;
 

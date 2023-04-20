@@ -1,4 +1,4 @@
-let map;
+/*let map;
 
 async function initMap() {
   //@ts-ignore
@@ -11,6 +11,7 @@ async function initMap() {
 }
 
 initMap();
+*/
 var currentIndex = 1;
 displaySlides(currentIndex);
 
